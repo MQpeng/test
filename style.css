@@ -1,0 +1,138 @@
+body {
+	padding: 20px;
+	margin: 0 auto;
+	background-color: #E2E2E2;
+	max-width: 512px;
+	color: #595B66;
+	font-family: 'Microsoft Yahei', sans-serif;
+}
+#header{
+    background-color: crimson;
+    color: #E2E2E2;
+    text-align: left;
+    padding: 5px;
+    border-radius: 10px 10px 0px 0px;
+}
+#footer{
+    background-color: chartreuse;
+    /* padding: 5px; */
+    padding: 5px;
+    border-radius:  0px 0px 10px 10px;
+}
+#nav{
+    background-color: rgb(68, 0, 255);
+    padding: 5px;
+    width: 30px;
+    float:left;
+
+}
+#section{
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    /* width: 300px; */
+    height: 140px;
+    /* text-align: center; */
+    margin-left:30px;
+    border-left:1px solid gray;
+    overflow: scroll;
+}
+h1,h2,h3,h4 {
+	color: #797979;
+    /*  border-bottom: solid 1px #797979; */
+    padding: 5px 0;
+}
+h1, h2 {
+    border-bottom: solid 2px #797979;
+}
+p {
+	font-size: 15px;
+    /* background: #797979; */
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    line-height: 2;
+}
+
+.box {
+	background-color: white;
+	/* margin: 0 0 55px; */
+	display: flex;
+}
+.box-1 {
+    flex-direction: row;
+    justify-content: center;
+}
+
+.mytestflex {
+    display: flex;
+    justify-content: space-between;
+    /* align-self: center; */
+    flex-direction: column;
+}
+.mytestflex-1{
+    background-color: lavenderblush;
+    height: 30px;
+    line-height: 30px;
+    display: flex;
+    justify-content: space-between;
+    /* align-self: center; */
+    border-bottom:1px solid crimson;
+    text-align: center;
+}
+.mytestflex-2{
+    background-color: rgb(188, 203, 236);
+    height: 30px;
+    line-height: 30px;
+    display: flex;
+    text-align: left;
+}
+.mytestflex-3{
+    background-color: rgb(188, 236, 192);
+    height: 30px;
+    line-height: 30px;
+    display: flex;
+    text-align: right;
+}
+.mybutton{
+    border: 3px solid red;
+    width: 200px;
+    height: 30px;  
+    border-radius: 15px;
+    text-align: center; 
+    background-color:red;
+    color: rgb(255, 255, 255);
+
+}
+/* 以下是checkedbox样式修改 */
+input[type=checkbox]{
+    -webkit-appearance: none;
+    vertical-align:middle;
+    margin-top:1px;
+    background:#fff;
+    border:#999 solid 2px;
+    border-radius: 14px;
+    height: 28px;
+    width: 28px;
+}
+input[type=checkbox]:checked{
+    background-color: #999;
+    content: "\2714";
+    text-align: center;
+    font-size: 16px;
+    color: rgb(255, 255, 255) ;
+}
+/* .color-input +label{
+    display: flex;
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    
+    border:3px solid #595B66;
+}
+.color-input:checked +label::before{
+    content:   
+    text-align: center;
+    font-size: 16px;
+    color: #595B66 ;
+} */
+/* ************ */
