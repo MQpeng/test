@@ -1,22 +1,25 @@
 body {
-	padding: 20px;
-	margin: 0 auto;
+	padding: 1px;
+    margin: 0 auto;
+    /* height: 667px; */
 	background-color: #E2E2E2;
-	max-width: 512px;
-	color: #595B66;
-	font-family: 'Microsoft Yahei', sans-serif;
+    color: #595B66;
+    font-family: 'Microsoft Yahei', sans-serif;
 }
 #header{
     background-color: crimson;
+    height: 200px;
     color: #E2E2E2;
     text-align: left;
-    padding: 5px;
+    font-size: 35px;
+    padding: 15px;
     border-radius: 10px 10px 0px 0px;
 }
 #footer{
     background-color: chartreuse;
     /* padding: 5px; */
     padding: 5px;
+    height:178px ;
     border-radius:  0px 0px 10px 10px;
 }
 #nav{
@@ -30,7 +33,7 @@ body {
     background-color: rgb(255, 255, 255);
     padding: 5px;
     /* width: 300px; */
-    height: 140px;
+    height: 1300px;
     /* text-align: center; */
     margin-left:30px;
     border-left:1px solid gray;
@@ -45,7 +48,7 @@ h1, h2 {
     border-bottom: solid 2px #797979;
 }
 p {
-	font-size: 15px;
+	/* font-size: 15px; */
     /* background: #797979; */
     padding: 10px;
     border-radius: 5px;
@@ -71,35 +74,39 @@ p {
 }
 .mytestflex-1{
     background-color: lavenderblush;
-    height: 30px;
-    line-height: 30px;
+    height: 120px;
+    line-height: 120px;
     display: flex;
     justify-content: space-between;
     /* align-self: center; */
     border-bottom:1px solid crimson;
     text-align: center;
+    font-size: 45px;
 }
 .mytestflex-2{
     background-color: rgb(188, 203, 236);
-    height: 30px;
-    line-height: 30px;
+    height: 120px;
+    line-height: 120px;
     display: flex;
     text-align: left;
+    
 }
 .mytestflex-3{
     background-color: rgb(188, 236, 192);
-    height: 30px;
-    line-height: 30px;
+    height: 120px;
+    line-height: 120px;
     display: flex;
     text-align: right;
+    font-size: 35px;
 }
 .mybutton{
     border: 3px solid red;
-    width: 200px;
-    height: 30px;  
-    border-radius: 15px;
+    width: 850px ;
+    height: 100px;  
+    border-radius: 50px;
     text-align: center; 
     background-color:red;
+    font-size: 70px;
     color: rgb(255, 255, 255);
 
 }
@@ -107,12 +114,12 @@ p {
 input[type=checkbox]{
     -webkit-appearance: none;
     vertical-align:middle;
-    margin-top:1px;
+    margin-top:10px;
     background:#fff;
-    border:#999 solid 2px;
-    border-radius: 14px;
-    height: 28px;
-    width: 28px;
+    border:#999 solid 10px;
+    border-radius: 55px;
+    height: 110px;
+    width: 110px;
 }
 input[type=checkbox]:checked{
     background-color: #999;
@@ -136,3 +143,41 @@ input[type=checkbox]:checked{
     color: #595B66 ;
 } */
 /* ************ */
+/*一下是朋友圈分享部分*/
+.sheared-body{
+    background-color: rgb(255, 255, 255);
+    width: 950px;
+    margin-left: 10px;
+    border-bottom: #ff0404 3px solid;
+    display: flex;
+    align-content: space-between;
+}
+.sheared-profilepicture{
+    background-color: khaki;
+    width: 190px;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+.sheared-content{
+    background-color: #797979;
+    width: 760px;
+    flex-wrap: wrap;
+}
+.sheared-content-text{
+    font-size: 60px;
+
+}
+.sheared-content-picture{
+    display:   flex;
+    flex-wrap: wrap;
+    padding: 20px;
+
+}
+img{
+    border: rgb(247, 3, 3) 5px solid;/*不能用*/
+    width: 180px;/*不能用*/
+    height: 180px;/*不能用*/
+    margin: 10px;/*不能用*/
+}
+/* ******************* */

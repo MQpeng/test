@@ -1,0 +1,82 @@
+#footer{
+    height: 10%;
+    width: 99%;
+    position:fixed;
+    bottom: 0%;
+    margin-left: 0px;
+    border-top: 2px gray solid;
+    display: flex;
+    justify-content: space-between;
+    background-color: cornsilk;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#header{
+    height: 10%;
+    width: 99%;
+    position:fixed;
+    top: 0%;
+    background-color: cornsilk;
+    border-bottom: 2px gray solid;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+#section{
+    height: 80%;
+    width: 99%;
+    position:fixed;
+    top: 10%;
+    background-color:  rgb(216, 216, 216);
+    overflow: scroll;
+}
+.section-nav{
+    height: 40%;
+    width: 99%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-nav-img{
+    height: 70%;
+    width: 99%;
+    background-color: white;
+    border-bottom: 2px gray solid;
+}
+.section-nav-button{
+    height: 30%;
+    width: 99%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-left: 30px; 用padding ui突出一块 
+    padding-right: 30px; */
+    border-bottom: 2px gray solid;
+}
+.section-recommend{
+    height: 40%;
+    width: 99%;
+    background-color: white;
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 3%;
+}
+.section-recommend-column{
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+span.header-text{
+    font-size: 65px;
+}
+button{
+    font-size: 35px;
+}
+img{
+    border: rgb(247, 3, 3) 5px solid;
+    border-radius: 15%;
+}
